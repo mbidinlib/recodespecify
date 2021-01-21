@@ -4,8 +4,7 @@ Stata program that Recodes other specify (Single select and multiple select)
 
 ## Overview
 
-Data officers/Managers might want to convert a dataset with repeat groups from long to wide 
-This stata program de-identify data and labels some variables
+During data cleaning, data officers/Managers might want to recode other specify in an excel sheet and apply to a stata dataset. This program will read the recodes from the excel file and apply it to the data
 
 ## installation(Beta)
 
@@ -18,14 +17,15 @@ net install recodespecify, all replace ///
 
 ```stata
 
-recodspecify ///
-	using "datafile", ///
+recodspecify 				///
+	using "datafile", 		///
 	xlsheet("excel file with recode") ///
-	parent(parent) ///
-	childvar(child) ///
-	childval(child_value)
-	newcat(new_category)
-	parenttype(multiple/single)	
+	parent(parent)			 ///
+	childvar(child) 		///
+	childval(child_value)		///
+	recodeto(recode_to) 		///
+	newcat(new_category) 		///
+	parenttype(multiple/single)	///
 	save(finaldata.dta)
 
 ```
