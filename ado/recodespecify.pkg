@@ -1,0 +1,13 @@
+0.0.1
+d 'recodespecify': Stata program that recodes other specify by reading from excel sheet
+d
+d KW: recode
+d KW: other specify
+d KW: other
+d KW: specify
+d
+d Distribution-Date: 20210121
+d
+d Authors: Mathew Bidinlib, Innovations for Poverty Action
+d Support: mbidinlib@poverty-action.org
+f recodespecify.ado
