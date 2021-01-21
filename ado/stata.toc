@@ -1,0 +1,3 @@
+v 0.0.1
+d recodespecify
+p Program that recodes other specify by reading from excel sheet
