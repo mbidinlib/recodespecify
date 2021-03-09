@@ -203,7 +203,8 @@ program define recodespecify
 			* Apply recode
 			forval j = 1/`n_recodes'{
 				loc v_name = "${`parentvar'_`j'}_${`recodeto'_`j'}"
-				replace `v_name'  = 1   if ${`childvar'_`j'} == "${`childval'_`j'}" 
+				glo v_name_n = subinstr("`v_name'","-", "_",.)
+				replace ${v_name_n}  = 1   if ${`childvar'_`j'} == "${`childval'_`j'}" 
 			}
 			 
 			 
