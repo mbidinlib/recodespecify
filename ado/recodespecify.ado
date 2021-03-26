@@ -3,9 +3,10 @@
 *By 	Mathew Bidinlib
 *Date:  November 11 2020
 **************************************
+*! Mathew Bidinlib (November 11, 2020)
 clear
 set seed 12345
-version 15.0
+version 12.0
 
 
 cap program drop recodespecify
