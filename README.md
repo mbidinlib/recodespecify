@@ -17,7 +17,7 @@ net install recodespecify, all replace ///
 
 ```stata
 
-recodspecify 				///
+recodespecify 				///
 	using "datafile", 		///
 	xlsheet("excel file with recode") ///
 	parent(parent)			 ///
