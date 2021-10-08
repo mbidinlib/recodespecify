@@ -25,7 +25,7 @@ recodespecify 				///
 	childval(child_value)		///
 	recodeto(recode_to) 		///
 	newcat(new_category) 		///
-	parenttype(multiple/single)	///
+	parenttype(parent_type)	///
 	save(finaldata.dta)
 
 ```
