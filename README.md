@@ -17,6 +17,8 @@ net install recodespecify, all replace ///
 
 ```stata
 
+* The variable specifications may be changed where the default excel template is not used
+
 recodespecify 				///
 	using "datafile", 		///
 	xlsheet("excel file with recode") ///
